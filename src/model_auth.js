@@ -1,8 +1,16 @@
 (function() {
+  // _.string
+  // input
+  // input-util
+  // j validate
   require(["underscore.string", "intl-tel-input", "intl-tel-input-ultils", "jquery.validate"], function(e, t) {
     var a, n, i, o, r;
+    // sign up submit button click
     return r = 0, $(".sign-up-submit").click(function(e) {
       var t, o, r, l, s, d, u, g, c, f, m, p;
+      // # sign up error
+      // sign up form valid
+      // login-modal
       return $("#sign-up-error-text").text(""), $("#sign-up-form").valid() && (o = $("#login-modal .modal-dialog"), t = $(this), l = t.html(), t.html("<i class='fa fa-fw fa-spinner fa-spin'></i> Signing up..."), p = $(this).data("scope"), u = $(p + " .sign-up-fullname").val(), r = u.split(" "), r.length > 1 ? (d = r[0], g = r[r.length - 1]) : (d = u, g = ""), m = $(p + " .sign-up-phone-intl").val(), s = $(p + " .sign-up-email").val(), f = $(p + " .sign-up-password").val(), c = $("#login-modal").data("no-reload"), Access.prototype.sign_up(d, g, m, s, function(e) {
         return t.html(l), null == e.id ? (n("Sign-up - Failure"), a(o, "shake", 2e3), e.success ? $("#sign-up-error-text").text("There was a problem signing up, please refresh the page and try again") : $("#sign-up-error-text").text(e.message)) : (n("Sign-up - Success"), $(".x-modal .modal-content").addClass("sign-up-spinner-show"), window.setCookie("show-coupon", 0, 0), $("#login-modal").data("redirect") && Analytics.prototype.track({
           event: "signUp",

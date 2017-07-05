@@ -249,6 +249,10 @@ Cdn venuemob + aws cdn + width = 480 (can use h=123 as well)
 
 
 ## ./src/model_auth.js
-
+Nothing special
 
 ## ./src/model_search.js
+Nothing special
+
+## It use handlebars and stripe
+e.g. https://venuemob.com.au/assets/hbs/browse/v2/compareListContent.hbs
