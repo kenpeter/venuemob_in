@@ -9,6 +9,9 @@ The field is not perfectly consistent.
 
 ## https://venuemob.com.au/api/proxy?get_url=postcode/regions_suburbs&city=melbourne
 
+![alt text][region_count]
+[region_count]: https://raw.githubusercontent.com/kenpeter/venuemob_in/master/src/region_count.png "test"
+
 
 
 ## hotjar
