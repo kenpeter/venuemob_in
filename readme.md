@@ -1,40 +1,31 @@
-https://venuemob.com.au/
+# https://venuemob.com.au/
 
 
---------------------
-Home page
---------------------
 
-https://venuemob.com.au/api/header
----------------------------------------------------------------
-Basically, address cross australia.
+## https://venuemob.com.au/api/header
+Basically, address cross Australia.
 The field is not perfectly consistent.
 
 
-https://venuemob.com.au/api/proxy?get_url=postcode/regions_suburbs&city=melbourne
-----------------------------------------------------------------------------------
+## https://venuemob.com.au/api/proxy?get_url=postcode/regions_suburbs&city=melbourne
 
 
 
+## hotjar
 It uses hotjar to monitor heatmap.
 
 
-
----------------------------------------
-https://my.venuemob.com.au
----------------------------------------
+## https://my.venuemob.com.au
 User profile
 
 
-------------------------------------------------
-https://auth.venuemob.com.au/login
-------------------------------------------------
+
+## https://auth.venuemob.com.au/login
 Post Username and password to auth url
 
 
-----------------------------------------------------
-Backbone again
-----------------------------------------------------
+## Backbone again
+~~~~
 (function() {
     require.config({
         waitSeconds: 0,
@@ -247,10 +238,9 @@ Backbone again
         }
     })
 }).call(this);
+~~~~
 
 
+## https://cdn.venuemob.com.au/?url=vm-cdn3.s3-ap-southeast-2.amazonaws.com/venues/the-escape-hunt-experience-melbourne/photos/the-escape-hunt-experience-melbourne-function-venue-lounge-area-6.jpg&w=480
 
----------------------------------------------------
-https://cdn.venuemob.com.au/?url=vm-cdn3.s3-ap-southeast-2.amazonaws.com/venues/the-escape-hunt-experience-melbourne/photos/the-escape-hunt-experience-melbourne-function-venue-lounge-area-6.jpg&w=480
---------------------------------------------------
 Cdn venuemob + aws cdn + width = 480 (can use h=123 as well)
