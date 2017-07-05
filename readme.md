@@ -1,4 +1,4 @@
-# https://venuemob.com.au/
+# Dig into https://venuemob.com.au/
 
 
 
@@ -245,3 +245,10 @@ Post Username and password to auth url
 ## https://cdn.venuemob.com.au/?url=vm-cdn3.s3-ap-southeast-2.amazonaws.com/venues/the-escape-hunt-experience-melbourne/photos/the-escape-hunt-experience-melbourne-function-venue-lounge-area-6.jpg&w=480
 
 Cdn venuemob + aws cdn + width = 480 (can use h=123 as well)
+
+
+
+## ./src/model_auth.js
+
+
+## ./src/model_search.js
